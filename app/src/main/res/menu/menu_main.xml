@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dinocoso_prefatta.MainActivity">
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:title="About"
+        app:showAsAction="ifRoom"/>
+    <item
+    android:id="@+id/story_1"
+    android:title="Story 1"
+    android:orderInCategory="200"
+    app:showAsAction="never"/>
+    <item
+    android:id="@+id/story_2"
+    android:title="Story 2"
+    android:orderInCategory="300"
+    app:showAsAction="never"/>
+    <item
+    android:id="@+id/social"
+    android:title="Follow"
+    android:orderInCategory="400"
+    app:showAsAction="never"/>
+
+</menu>

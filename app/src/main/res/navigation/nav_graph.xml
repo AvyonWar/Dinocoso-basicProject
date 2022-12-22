@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.dinocoso_prefatta.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.dinocoso_prefatta.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_thirdFragment2"
+            app:destination="@id/ThirdFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ThirdFragment"
+        android:name="com.example.dinocoso_prefatta.ThirdFragment"
+        android:label="@string/fragment_third_label"
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/action_thirdFragment2_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_ThirdFragment_to_fourFragment"
+            app:destination="@id/FourFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FourFragment"
+        android:name="com.example.dinocoso_prefatta.FourFragment"
+        android:label="@string/fragment_four_label"
+        tools:layout="@layout/fragment_four" >
+        <action
+            android:id="@+id/action_fourFragment_to_ThirdFragment"
+            app:destination="@id/ThirdFragment" />
+        <action
+            android:id="@+id/action_FourFragment_to_fiveFragment"
+            app:destination="@id/fiveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fiveFragment"
+        android:name="com.example.dinocoso_prefatta.FiveFragment"
+        android:label="@string/fragment_five_label"
+        tools:layout="@layout/fragment_five" >
+        <action
+            android:id="@+id/action_fiveFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+</navigation>
