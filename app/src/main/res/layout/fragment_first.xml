@@ -13,7 +13,7 @@
     android:layout_height="wrap_content"
     android:fontFamily="cursive"
     android:gravity="center"
-    android:text="Hello"
+    android:text="@string/hello"
     android:textAlignment="center"
     android:textColor="#9C27B0"
     android:textSize="48sp"
@@ -43,14 +43,14 @@
 
  <Button
      android:id="@+id/buttonChangeImage"
-     android:layout_width="142dp"
-     android:layout_height="32dp"
+     android:layout_width="163dp"
+     android:layout_height="33dp"
      android:fontFamily="monospace"
      android:gravity="center"
-     android:text="Change the image"
+     android:text="@string/change_the_image"
      android:textAlignment="center"
      android:textColor="#FBF800"
-     android:textSize="8sp"
+     android:textSize="10sp"
      android:textStyle="italic"
      app:iconTint="#F80000"
      app:layout_constraintBottom_toBottomOf="parent"
@@ -58,7 +58,8 @@
      app:layout_constraintHorizontal_bias="0.498"
      app:layout_constraintStart_toStartOf="parent"
      app:layout_constraintTop_toBottomOf="@+id/buttonStartToStory"
-     app:layout_constraintVertical_bias="0.669" />
+     app:layout_constraintVertical_bias="0.669"
+     tools:ignore="TouchTargetSizeCheck" />
 
  <ImageView
      android:id="@+id/imageView"
@@ -71,6 +72,7 @@
      app:layout_constraintStart_toStartOf="parent"
      app:layout_constraintTop_toBottomOf="@+id/textView"
      app:layout_constraintVertical_bias="0.423"
-     tools:srcCompat="@drawable/dino_coso" />
+     tools:srcCompat="@drawable/dino_coso"
+     android:contentDescription="@string/todo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

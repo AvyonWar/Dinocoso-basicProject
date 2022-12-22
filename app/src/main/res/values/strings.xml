@@ -13,4 +13,26 @@
     <string name="fragment_third_label">Story 1</string>
     <string name="fragment_four_label">Story 1</string>
     <string name="fragment_five_label">Srory 1</string>
+    <string name="hello">Hello</string>
+    <string name="change_the_image">Change the image</string>
+    <string name="todo">TODO</string>
+    <string name="prev">prev</string>
+    <string name="next">Next</string>
+    <string name="dino_and_the_love_of_the_piregna">Dino and the love of the piregna</string>
+    <string name="_1_to_4">1 to 4</string>
+    <string name="todo_2">TODO</string>
+    <string name="prev_2">prev</string>
+    <string name="next_3">Next</string>
+    <string name="_2_to_4">2 to 4</string>
+    <string name="dino_and_the_love_of_the_piregna_3">-- Dino and the love of the piregna --</string>
+    <string name="todo_3">TODO</string>
+    <string name="prev_4">prev</string>
+    <string name="next_4">Next</string>
+    <string name="_3_to_4">3 to 4</string>
+    <string name="dino_and_the_love_of_the_piregna_4">-- Dino and the love of the piregna --</string>
+    <string name="todo_4">TODO</string>
+    <string name="home">Home</string>
+    <string name="_4_to_4">4 to 4</string>
+    <string name="dino_and_the_love_of_the_piregna_5">-- Dino and the love of the piregna --</string>
+    <string name="todo_5">TODO</string>
 </resources>
