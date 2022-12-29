@@ -15,6 +15,7 @@
     <color name="Sdark_green">#85A634</color>
     <color name="S_green">#A6CA52</color>
     <color name="Slight_green">#ffffb0</color>
-
+    <color name="purple">#52185C</color>
+    <color name="light_purple">#C311E3</color>
 
 </resources>

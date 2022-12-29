@@ -30,7 +30,8 @@
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toStartOf="@+id/bNext"
     app:layout_constraintHorizontal_bias="0.078"
-    app:layout_constraintStart_toStartOf="parent" />
+    app:layout_constraintStart_toStartOf="parent"
+     style="@style/buttomStyle"/>
 
  <Button
     android:id="@+id/bNext"
@@ -41,38 +42,32 @@
     android:text="@string/next"
     app:layout_constraintBaseline_toTopOf="parent"
     app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent" />
+    app:layout_constraintEnd_toEndOf="parent"
+     style="@style/buttomStyle"/>
 
  <TextView
-     android:id="@+id/textView2"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:fontFamily="cursive"
+     android:id="@+id/secondTitle"
      android:text="@string/dino_and_the_love_of_the_piregna"
-     android:textAlignment="center"
-     android:textColor="#000000"
-     android:textSize="34sp"
+     android:layout_height="@dimen/secondTitle_text_height"
      app:layout_constraintBottom_toBottomOf="parent"
      app:layout_constraintEnd_toEndOf="parent"
      app:layout_constraintHorizontal_bias="0.218"
      app:layout_constraintStart_toStartOf="parent"
      app:layout_constraintTop_toTopOf="parent"
-     app:layout_constraintVertical_bias="0.058" />
+     app:layout_constraintVertical_bias="0.058"
+     style="@style/bodyTextStyle" />
 
  <TextView
-     android:id="@+id/textView3"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:fontFamily="cursive"
+     android:id="@+id/textPiedipag_2to4"
      android:text="@string/_1_to_4"
-     android:textAlignment="center"
-     android:textColor="#521A5C"
-     android:textSize="16sp"
+     android:textColor="@color/purple"
+     android:layout_height="@dimen/pièdipag_text_height"
      app:layout_constraintBottom_toBottomOf="@+id/imageView2"
      app:layout_constraintEnd_toEndOf="parent"
      app:layout_constraintHorizontal_bias="0.498"
      app:layout_constraintStart_toStartOf="parent"
      app:layout_constraintTop_toTopOf="parent"
-     app:layout_constraintVertical_bias="0.837" />
+     app:layout_constraintVertical_bias="0.837"
+     style="@style/pièdipaginaStyle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

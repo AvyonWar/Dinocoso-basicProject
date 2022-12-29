@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DinoCoso_prefatta</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">le avventure di Dinocoso</string>
+    <string name="second_fragment_label">Storia 1</string>
+    <string name="start">Iniziamo</string>
+
+    <string name="previous">Precedente</string>
+
+    <string name="hello_first_fragment">le avventure di Dinocoso</string>
+    <string name="hello_second_fragment">le avventure di Dinocoso 2</string>
+    <string name="fragment_third_label">Storia 1</string>
+    <string name="fragment_four_label">Storia 1</string>
+    <string name="fragment_five_label">Storia 1</string>
+    <string name="hello">Ciao</string>
+    <string name="change_the_image">prova a cambiarla</string>
+    <string name="todo">TODO</string>
+    <string name="prev">prec</string>
+    <string name="next">seg</string>
+    <string name="dino_and_the_love_of_the_piregna">Dino e l amore per i piragna</string>
+    <string name="_1_to_4">1 di 4</string>
+    <string name="todo_2">TODO</string>
+    <string name="prev_2">prec</string>
+    <string name="next_3">seg</string>
+    <string name="_2_to_4">2 di 4</string>
+    <string name="dino_and_the_love_of_the_piregna_3">-- Dino e l amore per i piragna --</string>
+    <string name="todo_3">TODO</string>
+    <string name="prev_4">prec</string>
+    <string name="next_4">seg</string>
+    <string name="_3_to_4">3 to 4</string>
+    <string name="dino_and_the_love_of_the_piregna_4">-- Dino e l amore per i piragna --</string>
+    <string name="todo_4">TODO</string>
+    <string name="home">inizio</string>
+    <string name="_4_to_4">4 to 4</string>
+    <string name="dino_and_the_love_of_the_piregna_5">-- Dino e l amore per i piragna --</string>
+    <string name="todo_5">TODO</string>
+</resources>

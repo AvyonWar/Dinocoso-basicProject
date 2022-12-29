@@ -16,7 +16,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/bNext3"
         app:layout_constraintHorizontal_bias="0.078"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/buttomStyle"/>
 
     <Button
         android:id="@+id/bNext3"
@@ -27,41 +28,43 @@
         android:text="@string/next_3"
         app:layout_constraintBaseline_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/buttomStyle"/>
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#FBF800"
+        android:contentDescription="@string/todo_3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2to4"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/dino2"
-        tools:srcCompat="@drawable/dino2"
-        android:contentDescription="@string/todo_3" />
+        tools:srcCompat="@drawable/dino2" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textPiedipag_2to4"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/pièdipag_text_height"
         android:fontFamily="cursive"
         android:text="@string/_2_to_4"
         android:textAlignment="center"
-        android:textColor="#52185C"
+        android:textColor="@color/purple"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.837" />
+        app:layout_constraintVertical_bias="0.837"
+        style="@style/pièdipaginaStyle"/>
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/text2to4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/body_text_height"
         android:fontFamily="cursive"
         android:text="@string/dino_and_the_love_of_the_piregna_3"
         android:textAlignment="viewStart"
@@ -72,5 +75,6 @@
         app:layout_constraintHorizontal_bias="0.218"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.058" />
+        app:layout_constraintVertical_bias="0.058"
+        style="@style/bodyTextStyle"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

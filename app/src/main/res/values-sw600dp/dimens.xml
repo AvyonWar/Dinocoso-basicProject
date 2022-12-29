@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="text_title_height">60dp</dimen>
+    <dimen name="body_text_height">32dp</dimen>
+    <dimen name="pièdipag_text_height">24dp</dimen>
+    <dimen name="secondTitle_text_height">48dp</dimen>
+</resources>
