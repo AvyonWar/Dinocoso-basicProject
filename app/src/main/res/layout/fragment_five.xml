@@ -9,16 +9,16 @@
 
     <Button
         android:id="@+id/bHome"
+        style="@style/buttomStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="40dp"
         android:text="@string/home"
         app:layout_constraintBaseline_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        style="@style/buttomStyle"/>
+        app:layout_constraintStart_toStartOf="parent" />
+
 
     <ImageView
         android:id="@+id/imageView5"
@@ -50,7 +50,7 @@
         style="@style/pièdipaginaStyle"/>
 
     <TextView
-        android:id="@+id/text4to4"
+        android:id="@+id/your_name"
         android:layout_width="match_parent"
         android:layout_height="@dimen/body_text_height"
         android:fontFamily="cursive"

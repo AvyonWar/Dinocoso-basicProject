@@ -60,4 +60,16 @@
      app:layout_constraintVertical_bias="0.384"
      tools:srcCompat="@drawable/dino_coso" />
 
+ <Button
+     android:id="@+id/bDino"
+     style="@style/buttomStyle"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="16dp"
+     android:text="@string/say_hello"
+     app:layout_constraintBaseline_toTopOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

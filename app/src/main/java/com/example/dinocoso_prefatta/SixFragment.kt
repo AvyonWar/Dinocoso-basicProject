@@ -10,8 +10,7 @@ import com.example.dinocoso_prefatta.databinding.FragmentFiveBinding
 import com.example.dinocoso_prefatta.databinding.FragmentSecondBinding
 import com.example.dinocoso_prefatta.databinding.FragmentThirdBinding
 
-
-class FiveFragment : Fragment() {
+class SixFragment : Fragment() {
 
     private var _binding: FragmentFiveBinding? = null
 
@@ -31,10 +30,6 @@ class FiveFragment : Fragment() {
 //da cancellare?
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-// bottone x ritornare a una pag
-        binding.bHome.setOnClickListener {
-            findNavController().navigate(R.id.action_fiveFragment_to_FirstFragment)
-        }
 
 
 

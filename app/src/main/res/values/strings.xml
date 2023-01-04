@@ -35,4 +35,10 @@
     <string name="_4_to_4">4 to 4</string>
     <string name="dino_and_the_love_of_the_piregna_5">-- Dino and the love of the piregna --</string>
     <string name="todo_5">TODO</string>
+    <string name="what_your_name">What\'s your name?</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter">entre</string>
+    <string name="say_hello">say hello</string>
+    <string name="todo6">TODO</string>
+    <string name="fragment_six_label">Say Hello</string>
 </resources>

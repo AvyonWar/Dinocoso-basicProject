@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SixFragment"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/enter_name"
+        android:layout_width="160dp"
+
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:inputType="none"
+        android:text="@string/enter_your_name"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/bHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/your_name"
+        android:autofillHints="">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/bHome"
+        style="@style/buttomStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="364dp"
+        android:text="@string/enter"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/your_name"
+        style="@style/bodyTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/body_text_height"
+        android:fontFamily="cursive"
+        android:text="@string/what_your_name"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/enter_name"
+        app:layout_constraintEnd_toStartOf="@+id/enter_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/enter_name"
+        app:srcCompat="@drawable/ic_question_answer"
+        android:contentDescription="@string/todo6">
+    </ImageView>
+</androidx.constraintlayout.widget.ConstraintLayout>
