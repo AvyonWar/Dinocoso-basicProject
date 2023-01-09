@@ -32,7 +32,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-
     }
 
     // gonfiare il menu.xml

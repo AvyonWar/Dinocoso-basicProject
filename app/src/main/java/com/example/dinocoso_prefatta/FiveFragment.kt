@@ -32,7 +32,7 @@ class FiveFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 // bottone x ritornare a una pag
-        binding.bHome.setOnClickListener {
+        binding.bEnter.setOnClickListener {
             findNavController().navigate(R.id.action_fiveFragment_to_FirstFragment)
         }
 

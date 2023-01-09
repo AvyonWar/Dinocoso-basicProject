@@ -8,7 +8,7 @@
     android:padding="16dp">
 
     <Button
-        android:id="@+id/bHome"
+        android:id="@+id/bEnter"
         style="@style/buttomStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,16 +24,15 @@
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:contentDescription="@string/todo_5"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/dino4"
-        tools:srcCompat="@drawable/dino4"
-        android:contentDescription="@string/todo_5" />
+        tools:srcCompat="@drawable/dino4" />
 
     <TextView
-        android:id="@+id/piedipag_4to4"
+        android:id="@+id/title_2to4"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/pièdipag_text_height"
         android:fontFamily="cursive"
@@ -50,7 +49,7 @@
         style="@style/pièdipaginaStyle"/>
 
     <TextView
-        android:id="@+id/your_name"
+        android:id="@+id/title_dino"
         android:layout_width="match_parent"
         android:layout_height="@dimen/body_text_height"
         android:fontFamily="cursive"

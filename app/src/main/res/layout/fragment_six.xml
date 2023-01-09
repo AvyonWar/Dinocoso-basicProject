@@ -4,29 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SixFragment"
+    tools:context=".sixFragment"
     android:padding="16dp">
 
-    <EditText
-        android:id="@+id/enter_name"
-        android:layout_width="160dp"
 
-        android:layout_height="wrap_content"
-        android:fontFamily="casual"
-        android:inputType="none"
-        android:text="@string/enter_your_name"
-        android:textAlignment="center"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/bHome"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/your_name"
-        android:autofillHints="">
 
-    </EditText>
 
     <Button
-        android:id="@+id/bHome"
+        android:id="@+id/bEnter"
         style="@style/buttomStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -40,7 +25,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/your_name"
+        android:id="@+id/title_dino"
         style="@style/bodyTextStyle"
         android:layout_width="match_parent"
         android:layout_height="@dimen/body_text_height"
@@ -61,11 +46,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/enter_name"
-        app:layout_constraintEnd_toStartOf="@+id/enter_name"
+        app:layout_constraintBottom_toBottomOf="@+id/name_enter"
+        app:layout_constraintEnd_toStartOf="@+id/name_enter"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/enter_name"
+        app:layout_constraintTop_toTopOf="@+id/name_enter"
         app:srcCompat="@drawable/ic_question_answer"
         android:contentDescription="@string/todo6">
     </ImageView>
+
+    <EditText
+        android:id="@+id/name_enter"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:hint="@string/enter_your_name"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/bEnter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_dino"
+        android:inputType="textLongMessage"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

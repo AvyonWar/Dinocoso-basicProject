@@ -39,7 +39,7 @@ class FourFragment : Fragment() {
         }
         //----- bottone per andare nella pag successiva
         binding.bNext4.setOnClickListener {
-            findNavController().navigate(R.id.action_FourFragment_to_fiveFragment) //AGGIORNAREThirdFragment
+            findNavController().navigate(R.id.action_FourFragment_to_fiveFragment)
                   }
         }
 

@@ -66,8 +66,11 @@
     </fragment>
     <fragment
         android:id="@+id/sixFragment"
-        android:name="com.example.dinocoso_prefatta.SixFragment"
+        android:name="com.example.dinocoso_prefatta.sixFragment"
         android:label="@string/fragment_six_label"
         tools:layout="@layout/fragment_six" >
+        <action
+            android:id="@+id/action_sixFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
     </fragment>
 </navigation>
