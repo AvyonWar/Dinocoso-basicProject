@@ -41,4 +41,11 @@
     <string name="say_hello">say hello</string>
     <string name="todo6">TODO</string>
     <string name="fragment_six_label">Say Hello</string>
+    <string name="about_dinocoso">About Dinocoso</string>
+    <string name="descrizione">"The Adventures of Dinocoso" narrates the daily difficulties that a T-Rew has living in the present day.
+Dinocoso faces his difficulties with little spirit, and often ends up getting angry without solving his problems.
+Despite all the difficulties he never gives up and always gets back on track without worrying too much.</string>
+    <string name="descrizione_due">"The Adventures of Dinocoso" are born in 2020.
+The cartoons are all hand-drawn and colored with watercolors, uniposca, and iridescent powders.</string>
+    <string name="buttom_about" translatable="false">about dino</string>
 </resources>

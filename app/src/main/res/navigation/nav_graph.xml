@@ -70,7 +70,12 @@
         android:label="@string/fragment_six_label"
         tools:layout="@layout/fragment_six" >
         <action
-            android:id="@+id/action_sixFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_sixFragment_to_sevenFragment"
+            app:destination="@id/sevenFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/sevenFragment"
+        android:name="com.example.dinocoso_prefatta.SevenFragment"
+        android:label="About Dinocoso"
+        tools:layout="@layout/fragment_seven" />
 </navigation>

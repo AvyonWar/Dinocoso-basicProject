@@ -8,6 +8,20 @@
     android:padding="16dp">
 
 
+    <Button
+        android:id="@+id/bAbout"
+        style="@style/buttomStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/buttom_about"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
 
 
     <Button
@@ -46,16 +60,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/name_enter"
-        app:layout_constraintEnd_toStartOf="@+id/name_enter"
+        app:layout_constraintBottom_toBottomOf="@+id/name_enter_edit_text"
+        app:layout_constraintEnd_toStartOf="@+id/name_enter_edit_text"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/name_enter"
+        app:layout_constraintTop_toTopOf="@+id/name_enter_edit_text"
         app:srcCompat="@drawable/ic_question_answer"
         android:contentDescription="@string/todo6">
     </ImageView>
 
     <EditText
-        android:id="@+id/name_enter"
+        android:id="@+id/name_enter_edit_text"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:fontFamily="casual"

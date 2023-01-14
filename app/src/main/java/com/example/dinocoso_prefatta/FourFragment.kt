@@ -7,8 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.example.dinocoso_prefatta.databinding.FragmentFourBinding
-import com.example.dinocoso_prefatta.databinding.FragmentSecondBinding
-import com.example.dinocoso_prefatta.databinding.FragmentThirdBinding
+
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.

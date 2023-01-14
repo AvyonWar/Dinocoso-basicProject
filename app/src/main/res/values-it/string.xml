@@ -43,4 +43,10 @@
     <string name="say_hello">saluta dino</string>
     <string name="todo6">TODO</string>
     <string name="fragment_six_label">saluta dino</string>
+    <string name="about_dinocoso">About Dinocoso</string>
+    <string name="descrizione">"Le avventure di Dinocoso" narrano le difficoltà giornaliere che un T-Rew ha vivendo ai giorni nostri.
+Dinocoso affronta le sue difficoltà con poco spirito , e finendo spesso con l\'arrabbiarsi senza risolvere i suoi problemi.
+Malgrado tutte le difficoltà non si arrende mai e torna sempre in carreggiata senza preoccuparsi troppo.</string>
+    <string name="descrizione_due">"Le avventure di Dinocoso" nascono nel 2020.
+Le vignette sono tutte disegnate a mano e colorate con acquerelli, uniposca, e polveri cangianti.</string>
 </resources>
