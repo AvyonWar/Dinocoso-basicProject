@@ -31,26 +31,34 @@ class sixFragment : Fragment() {
         _binding = FragmentSixBinding.inflate(inflater, container, false)
         return binding.root
 
-        //---nascondere la tastiera.---------------------------------------------------------------
-        fun View.hideKeyboard() {
-            val imm = context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-            imm.hideSoftInputFromWindow(windowToken, 0)
-        }
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.bEnter.setOnClickListener {
             binding.titleDino.text = binding.nameEnterEditText.text
+
+            Snackbar.make(
+                binding.bAbout,
+                "Hello! my name is Dinocoso; and yours?",
+                Snackbar.LENGTH_SHORT
+            ).show()
+
+            //---nascondere la tastiera.---------------------------------------------------------------
+            fun View.hideKeyboard() {
+                val imm = context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+                imm.hideSoftInputFromWindow(windowToken, 0)
+            }
         }
-             Snackbar.make(
-                    binding.bAbout,
-                    "Hello! my name is Dinocoso; and yours?",
-                    Snackbar.LENGTH_SHORT
-                ).show()
 
         binding.bAbout.setOnClickListener {
             findNavController().navigate(R.id.action_sixFragment_to_sevenFragment)
+        }
+
+        //---nascondere la tastiera.---------------------------------------------------------------
+        fun View.hideKeyboard() {
+            val imm = context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+            imm.hideSoftInputFromWindow(windowToken, 0)
         }
     }
 
